@@ -8,17 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		B691C87D287625AC009001B0 /* SolarSystemSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B691C87C287625AC009001B0 /* SolarSystemSwiftUIApp.swift */; };
-		B691C87F287625AC009001B0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B691C87E287625AC009001B0 /* ContentView.swift */; };
 		B691C881287625AD009001B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B691C880287625AD009001B0 /* Assets.xcassets */; };
 		B691C884287625AD009001B0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B691C883287625AD009001B0 /* Preview Assets.xcassets */; };
+		B691C88B287628C8009001B0 /* Planet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B691C88A287628C8009001B0 /* Planet.swift */; };
+		B691C88D28762AF0009001B0 /* PlanetDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B691C88C28762AF0009001B0 /* PlanetDataStore.swift */; };
+		B691C88F28762C62009001B0 /* PlanetListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B691C88E28762C62009001B0 /* PlanetListView.swift */; };
+		B691C89128762E2F009001B0 /* PlanetDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B691C89028762E2F009001B0 /* PlanetDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B691C879287625AC009001B0 /* SolarSystemSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SolarSystemSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B691C87C287625AC009001B0 /* SolarSystemSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolarSystemSwiftUIApp.swift; sourceTree = "<group>"; };
-		B691C87E287625AC009001B0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B691C880287625AD009001B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B691C883287625AD009001B0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B691C88A287628C8009001B0 /* Planet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Planet.swift; sourceTree = "<group>"; };
+		B691C88C28762AF0009001B0 /* PlanetDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetDataStore.swift; sourceTree = "<group>"; };
+		B691C88E28762C62009001B0 /* PlanetListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetListView.swift; sourceTree = "<group>"; };
+		B691C89028762E2F009001B0 /* PlanetDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +58,10 @@
 			isa = PBXGroup;
 			children = (
 				B691C87C287625AC009001B0 /* SolarSystemSwiftUIApp.swift */,
-				B691C87E287625AC009001B0 /* ContentView.swift */,
+				B691C89028762E2F009001B0 /* PlanetDetailView.swift */,
+				B691C88E28762C62009001B0 /* PlanetListView.swift */,
+				B691C88C28762AF0009001B0 /* PlanetDataStore.swift */,
+				B691C88A287628C8009001B0 /* Planet.swift */,
 				B691C880287625AD009001B0 /* Assets.xcassets */,
 				B691C882287625AD009001B0 /* Preview Content */,
 			);
@@ -137,7 +146,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B691C87F287625AC009001B0 /* ContentView.swift in Sources */,
+				B691C88D28762AF0009001B0 /* PlanetDataStore.swift in Sources */,
+				B691C88B287628C8009001B0 /* Planet.swift in Sources */,
+				B691C88F28762C62009001B0 /* PlanetListView.swift in Sources */,
+				B691C89128762E2F009001B0 /* PlanetDetailView.swift in Sources */,
 				B691C87D287625AC009001B0 /* SolarSystemSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
